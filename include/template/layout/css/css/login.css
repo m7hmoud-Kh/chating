@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("../img/backlogin.jpg");
+    background-size: cover;
+}
+.formchat
+{
+    margin: auto;
+    width: 500px;
+    margin-top: 8%;
+}
+.formchat .form_header 
+{
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px;
+}
+.formchat .form_header h1
+{
+    font-size: 50px;
+    text-transform: capitalize;
+
+}
+.formchat .form_header p 
+{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.formchat .form_body
+{
+    background-color: aliceblue;
+    padding: 25px;
+}
+.form_body label i 
+{
+    color:#28a745;
+}
+.form_body input  
+{
+    margin-bottom: 2%;
+}
+.form_body span 
+{
+    font-weight: bold;
+    margin-bottom: 3%;
+    display: block;
+}
+.form_body span a 
+{
+    color: #28a745;
+}
+input[type="submit"]
+{
+    text-transform: capitalize;
+}
+.form_body label, 
+.form_body input::placeholder,
+.form_body span 
+{
+    text-transform: capitalize;
+}
+.form_body .errmeg 
+{
+    text-transform: capitalize;
+}
