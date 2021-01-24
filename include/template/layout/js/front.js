@@ -35,7 +35,6 @@ $(function () {
             success: function (data) {
                 $("#serachmember")[0].reset();
                 $("#ser").html(data);
-                console.log(data);
             }
         });
     });
